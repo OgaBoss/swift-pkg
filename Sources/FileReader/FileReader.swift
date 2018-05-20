@@ -1,4 +1,5 @@
 import Foundation
+
 class FileReader {
     static func read(fileName: String) -> String? {
         let fileManager = FileManager.default
